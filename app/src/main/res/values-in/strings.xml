@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Film</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tv_show">Acara TV</string>
+    <string name="title_detail_movie">Rincian Film</string>
+    <string name="change_language_setting">Ubah Pengaturan Bahasa</string>
+
+    <string name="lorem__long_sample">DESKRIPSI</string>
+    <string name="lorem__short_sample">DESK</string>
+    <string name="percentage__sample">84%</string>
+    <string name="date__sample">10/10/2010</string>
+
+    <string name="calendar_content_description">Gambar Kalender</string>
+    <string name="poster_content_description">Gambar Poster</string>
+    <string name="movie_image_description">Gambar Film</string>
+
+    <string name="loading_text">Memuat</string>
+    <string name="add_favorite">favorit</string>
+    <string name="title_favorite_movie">Film Favorit</string>
+</resources>

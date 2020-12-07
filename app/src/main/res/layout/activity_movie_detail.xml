@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/image_detail_movie"
+            android:layout_width="178dp"
+            android:layout_height="248dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:transitionName="img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/shadou_bottom"
+            android:layout_width="178dp"
+            android:layout_height="80dp"
+            android:layout_alignBottom="@id/image_detail_movie"
+            android:src="@drawable/bottom_shadow"
+            app:layout_constraintBottom_toBottomOf="@+id/image_detail_movie"
+            app:layout_constraintStart_toStartOf="@+id/image_detail_movie"
+            app:layout_constraintTop_toTopOf="@+id/image_detail_movie"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/text_detail_rating_movie"
+            android:layout_width="97dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+
+            android:layout_marginEnd="8dp"
+            android:drawableStart="@drawable/small_nether_star"
+            android:drawableLeft="@drawable/starsmall"
+            android:drawablePadding="14dp"
+            android:elevation="2dp"
+            android:fontFamily="@font/minecraftia"
+            android:padding="8dp"
+            android:text="@string/percentage__sample"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.026"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_detail_title_movie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/minecrafter_3"
+            android:text="@string/lorem__short_sample"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_detail_movie"
+            tools:ignore="MissingConstraints" />
+
+        <FrameLayout
+            android:id="@+id/layoutDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/round_white"
+            android:padding="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_detail_rating_movie">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/minec_clock" />
+
+            <TextView
+                android:id="@+id/text_detail_calendar_movie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/minecraftia"
+                android:text="01 January 1990"
+                android:textColor="#606060"
+                android:textSize="10dp" />
+
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text_detail_description_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/minecraftia"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/lorem__long_sample"
+            android:textColor="@android:color/black"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_detail_title_movie"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

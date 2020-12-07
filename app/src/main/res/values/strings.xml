@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="title_movie">Movie</string>
+    <string name="title_tv_show">TV Show</string>
+    <string name="title_detail_movie">Detail Movie</string>
+    <string name="change_language_setting">Change Language Setting</string>
+
+    <string name="lorem__long_sample">DESCRIPTION.</string>
+    <string name="lorem__short_sample">DESC </string>
+    <string name="percentage__sample">84%</string>
+    <string name="date__sample">10/10/2010</string>
+
+    <string name="calendar_content_description">Calendar Image</string>
+    <string name="poster_content_description">Poster Image</string>
+    <string name="movie_image_description">Movie image</string>
+
+    <string name="loading_text">Loading</string>
+    <string name="add_favorite">favorite</string>
+    <string name="title_favorite_movie">Favorite Movie</string>
+</resources>
